@@ -19,14 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\List\SingleList.c" />
-    <ClCompile Include="src\main.c" />
-    <ClCompile Include="src\Tree\BinaryTree.c" />
+    <ClCompile Include="src\List\c\SingleList.c" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Tree\c\BinaryTree.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\List\SingleList.h" />
-    <ClInclude Include="src\PerformanceCounter.h" />
-    <ClInclude Include="src\Tree\BinaryTree.h" />
+    <ClInclude Include="src\List\c\SingleList.h" />
+    <ClInclude Include="src\Tree\c\BinaryTree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

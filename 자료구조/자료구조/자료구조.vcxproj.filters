@@ -13,33 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="BinaryTree">
+    <Filter Include="c">
+      <UniqueIdentifier>{383880eb-6a4f-4957-837c-809d1c3a9813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c\BinaryTree">
       <UniqueIdentifier>{76a3e79a-60b7-4a26-9210-389f8f747d5e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="SingleList">
+    <Filter Include="c\SingleList">
       <UniqueIdentifier>{04b19c0d-2dea-4107-8fd2-b65cdaffb8b4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="BinaryTree\c">
-      <UniqueIdentifier>{ecfba5b7-27dd-4c20-842f-0472519b0726}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="BinaryTree\cpp">
-      <UniqueIdentifier>{afdebfcd-14d8-4156-9cc8-e7117ed3bb81}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="SingleList\c">
-      <UniqueIdentifier>{8846e96b-4efa-4dc1-8abc-602b3b214371}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="SingleList\cpp">
-      <UniqueIdentifier>{c6441b08-5792-42ad-b80e-d2e84ed0b046}</UniqueIdentifier>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{0062a0d4-f7a1-4a2a-8368-02fb6a23cba8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Tree\c\BinaryTree.c">
+      <Filter>c\BinaryTree</Filter>
+    </ClCompile>
     <ClCompile Include="src\List\c\SingleList.c">
-      <Filter>SingleList\c</Filter>
+      <Filter>c\SingleList</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Tree\c\BinaryTree.h">
+      <Filter>c\BinaryTree</Filter>
+    </ClInclude>
     <ClInclude Include="src\List\c\SingleList.h">
-      <Filter>SingleList\c</Filter>
+      <Filter>c\SingleList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
