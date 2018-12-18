@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BinaryTree">
+      <UniqueIdentifier>{76a3e79a-60b7-4a26-9210-389f8f747d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleList">
+      <UniqueIdentifier>{04b19c0d-2dea-4107-8fd2-b65cdaffb8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree\c">
+      <UniqueIdentifier>{ecfba5b7-27dd-4c20-842f-0472519b0726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BinaryTree\cpp">
+      <UniqueIdentifier>{afdebfcd-14d8-4156-9cc8-e7117ed3bb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleList\c">
+      <UniqueIdentifier>{8846e96b-4efa-4dc1-8abc-602b3b214371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SingleList\cpp">
+      <UniqueIdentifier>{c6441b08-5792-42ad-b80e-d2e84ed0b046}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\List\c\SingleList.c">
+      <Filter>SingleList\c</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\List\c\SingleList.h">
+      <Filter>SingleList\c</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
