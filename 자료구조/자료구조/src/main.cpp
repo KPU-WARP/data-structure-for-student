@@ -10,6 +10,9 @@ extern "C" { // 중괄호 사이의 코드들은 C언어 규칙에 따름
 #include "Tree/c/BinaryTree.h"
 }
 
+//cpp
+#include "Stack/cpp/SimpleStack.h"
+
 // TEST CODE
 int main()
 {
