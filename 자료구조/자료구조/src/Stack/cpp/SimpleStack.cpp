@@ -99,13 +99,13 @@ void SIMPLE_STACK::ExampleFunction()
 
 	std::cout 
 		<< "\n\n"
-		<< "	2. 스택에서 차례대로 Pop합니다.\n";
+		<< "	2. 스택에서 5번 Pop합니다.\n";
 
-	myStack.Pop();
-	myStack.Pop();
-	myStack.Pop();
-	myStack.Pop();
-	myStack.Pop();
+	for (auto i = 0; i < 5; ++i)
+	{
+		Node* pPoppedNode = myStack.Pop();
+		delete pPoppedNode;
+	}
 
 	//실제로는 Pop한 노드의 데이터를 확인해야합니다.
 	std::cout 
@@ -122,9 +122,9 @@ void SIMPLE_STACK::ExampleFunction()
 		<< "\n\n"
 		<< "	3. 스택이 빈상태일 때, Pop을 시도합니다.\n";
 
-	myStack.Pop();
+	delete myStack.Pop();
 
 	std::cout
 		<< "\n\n"
-		<< " [GoodBye] 감사합니다. 이상으로 Simple Stack의 예제함수를 종료합니다.\n";
+		<< " [Bye] 감사합니다. 이상으로 Simple Stack의 예제함수를 종료합니다.\n";
 }

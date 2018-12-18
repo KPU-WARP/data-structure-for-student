@@ -3,11 +3,11 @@
 #include <iostream>	// for Output
 
 /*
-	SIMPLE STACK	
-		-	가장 단순한 형태의 스택입니다. 
+	SIMPLE STACK	원성연_2013182027
+		- 가장 단순한 형태의 스택입니다. 
 
 		#0. 예시 함수 SIMPLE_STACK::ExampleFunction()을 제공합니다.
-			- main.cpp에서 실행해 주세요 :) => SIMPLE_STACK::ExampleFunction()를 추가하면 됩니다!
+			- main.cpp에서 SIMPLE_STACK::ExampleFunction(); 를 추가해주시면 됩니다! :)
 		#1. Int형 데이터 1개를 가지는 Node로 구성된 스택입니다.
 		#2. 스택 함수는 Push와 Pop만을 단 두개만을 제공합니다.
 
