@@ -12,13 +12,16 @@ __한국산업기술대 학술소모임 Warp의 data-structure-for-student 저�
 __구현된 자료구조 목록입니다.__
 
 ___List___
-* [SingleList(C)](./자료구조/자료구조/src/List/c/SingleList.h)
+* [Single List(C)](./자료구조/자료구조/src/List/c/SingleList.h)
 
 ___Stack___
-* [SimpleStack(C++)](./자료구조/자료구조/src/Stack/cpp/SimpleStack.h)
+* [Simple Stack(C++)](./자료구조/자료구조/src/Stack/cpp/SimpleStack.h)
+
+___Queue___
+* [Simple Queue(C++)](./자료구조/자료구조/src/Queue/cpp/SimpleQueue.h)
 
 ___Tree___
-* [BinaryTree(C)](./자료구조/자료구조/src/Tree/c/BinaryTree.h)
+* [Binary Tree(C)](./자료구조/자료구조/src/Tree/c/BinaryTree.h)
 
 ---
 
