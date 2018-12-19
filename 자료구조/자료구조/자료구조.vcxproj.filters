@@ -28,6 +28,9 @@
     <Filter Include="cpp\Stack">
       <UniqueIdentifier>{5ad0ddb8-0d5c-4071-b5fe-eb068153653e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cpp\Queue">
+      <UniqueIdentifier>{2793d3eb-9b6c-4156-83ea-e4f5af6f90e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tree\c\BinaryTree.c">
@@ -42,6 +45,9 @@
     <ClCompile Include="src\Stack\cpp\SimpleStack.cpp">
       <Filter>cpp\Stack</Filter>
     </ClCompile>
+    <ClCompile Include="src\Queue\cpp\SimpleQueue.cpp">
+      <Filter>cpp\Queue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Tree\c\BinaryTree.h">
@@ -52,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="src\Stack\cpp\SimpleStack.h">
       <Filter>cpp\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Queue\cpp\SimpleQueue.h">
+      <Filter>cpp\Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

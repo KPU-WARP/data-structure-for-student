@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClCompile Include="src\List\c\SingleList.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Queue\cpp\SimpleQueue.cpp" />
     <ClCompile Include="src\Stack\cpp\SimpleStack.cpp" />
     <ClCompile Include="src\Tree\c\BinaryTree.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\List\c\SingleList.h" />
+    <ClInclude Include="src\Queue\cpp\SimpleQueue.h" />
     <ClInclude Include="src\Stack\cpp\SimpleStack.h" />
     <ClInclude Include="src\Tree\c\BinaryTree.h" />
   </ItemGroup>
