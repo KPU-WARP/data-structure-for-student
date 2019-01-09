@@ -31,6 +31,9 @@
     <Filter Include="cpp\Queue">
       <UniqueIdentifier>{2793d3eb-9b6c-4156-83ea-e4f5af6f90e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="cpp\RedBlackTree">
+      <UniqueIdentifier>{5f75ec1b-39ca-449d-9de0-94ac1604b20c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Tree\c\BinaryTree.c">
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="src\Queue\cpp\SimpleQueue.h">
       <Filter>cpp\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tree\cpp\Custom_RedBlackTree.h">
+      <Filter>cpp\RedBlackTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

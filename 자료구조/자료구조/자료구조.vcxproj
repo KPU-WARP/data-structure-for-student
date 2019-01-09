@@ -29,6 +29,7 @@
     <ClInclude Include="src\List\c\SingleList.h" />
     <ClInclude Include="src\Queue\cpp\SimpleQueue.h" />
     <ClInclude Include="src\Stack\cpp\SimpleStack.h" />
+    <ClInclude Include="src\Tree\cpp\Custom_RedBlackTree.h" />
     <ClInclude Include="src\Tree\c\BinaryTree.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -96,9 +97,10 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>./src/;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

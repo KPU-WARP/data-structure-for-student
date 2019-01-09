@@ -13,6 +13,8 @@ extern "C" { // 중괄호 사이의 코드들은 C언어 규칙에 따름
 //cpp
 #include "../src/Stack/cpp/SimpleStack.h"
 #include "../src/Queue/cpp/SimpleQueue.h"
+#include "../src/Tree/cpp/Custom_RedBlackTree.h"
+
 
 // TEST CODE
 int main()
