@@ -30,6 +30,12 @@ ___Tree___
 
  그 외 개선할 점이나, 요청하시고 싶은 자료구조가 있으시다면 ___Programmers Team___ 에 ___Discussion___ 을 작성해 주세요!
 
- 목록에 없는 자료 구조를 구현해주시는 것도 언제든지! 누구나! 환영합니다   ___TYF PR! :)___
+ 목록에 없는 자료 구조를 구현해주시는 것도 언제든지! 누구나! 환영합니다   ___ PR 환영! :)___
+
+__Contributor__
+  - [이상기](https://github.com/Lunta)
+  - [원성연](https://github.com/GameForPeople)
 
  __감사합니다 :)__
+
+
