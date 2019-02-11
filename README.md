@@ -25,17 +25,15 @@ ___Tree___
 * [RedBlack Tree(C++)](./자료구조/자료구조/src/Tree/cpp/Custom_RedBlackTree.h)
 
 ---
-
- 코드를 확인하시고, 잘못된 부분이 있다면 ___Pull Request___ (혹은 ___Push___ )  를 부탁드립니다. 
-
- 그 외 개선할 점이나, 요청하시고 싶은 자료구조가 있으시다면 ___Programmers Team___ 에 ___Discussion___ 을 작성해 주세요!
-
- 목록에 없는 자료 구조를 구현해주시는 것도 언제든지! 누구나! 환영합니다   ___ PR 환영! :)___
-
 __Contributor__
   - [이상기](https://github.com/Lunta)
-  - [원성연](https://github.com/GameForPeople)
+  - [원성연](https://github.com/GameForPeople) 
+>   
+> 코드를 확인하시고, 잘못된 부분이 있다면 ___Pull Request___ (혹은 ___Push___ )  를 부탁드립니다.     
+> 그 외 개선할 점이나, 요청하시고 싶은 자료구조가 있으시다면 ___Programmers Team___ 에 ___Discussion___ 을 작성해 주세요!    
+> 목록에 없는 자료 구조를 구현해주시는 것도 언제든지! 누구나! 감사합니다.     
+> __PR은 언제든지 환영입니다! :)__  __감사합니다__
 
- __감사합니다 :)__
+
 
 
